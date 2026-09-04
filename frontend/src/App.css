@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f4f8;
+  color: #403843;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 60px 20px;
+}
+
+.header {
+  text-align: center;
+  max-width: 750px;
+  margin: 0 auto 45px;
+}
+
+.header h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+  color: #4b3d4d;
+}
+
+.header p {
+  font-size: 18px;
+  color: #817582;
+  line-height: 1.6;
+}
+
+.card {
+  max-width: 750px;
+  margin: auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 28px;
+  box-shadow: 0 15px 40px rgba(80, 60, 80, 0.1);
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section label {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #574a58;
+}
+
+.upload-box {
+  border: 2px dashed #cbb9cc;
+  border-radius: 20px;
+  padding: 35px;
+  text-align: center;
+  background: #fcf9fc;
+}
+
+.upload-box p {
+  color: #8b7c8d;
+  margin-bottom: 18px;
+}
+
+.file-input {
+  width: 100%;
+}
+
+.file-name {
+  margin-top: 15px;
+  color: #716074;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  min-height: 180px;
+  padding: 18px;
+  border: 1px solid #ddd1df;
+  border-radius: 18px;
+  outline: none;
+  resize: vertical;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  background: #fff;
+}
+
+textarea:focus {
+  border-color: #b9a3bb;
+}
+
+.analyze-button {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  border-radius: 18px;
+  background: #b9a3bb;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.analyze-button:hover {
+  background: #a28aa4;
+  transform: translateY(-2px);
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  color: #665669;
+  font-weight: bold;
+}
